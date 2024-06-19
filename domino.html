@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomba Domino - Hari Kemerdekaan Indonesia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            padding-bottom: 4em; /* Menambahkan padding bottom agar footer tidak menutupi konten */
+        }
+        header {
+            background: url('https://static.vecteezy.com/system/resources/previews/009/392/942/original/red-geometric-background-with-simple-white-line-design-for-indonesia-independence-day-and-indonesian-text-mean-is-longevity-my-indonesia-vector.jpg') no-repeat center center;
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000000;
+        }
+        .content {
+            padding: 2em;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .event {
+            margin: 2em 0;
+        }
+        .event h2 {
+            color: #ff0000;
+        }
+        footer {
+            background: url('https://static.vecteezy.com/system/resources/previews/009/392/942/original/red-geometric-background-with-simple-white-line-design-for-indonesia-independence-day-and-indonesian-text-mean-is-longevity-my-indonesia-vector.jpg') no-repeat center center;
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 aspect ratio */
+            margin-bottom: 1em; /* Added margin to separate from text */
+            overflow: hidden; /* Added to prevent iframe overflow */
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* Remove border */
+        }
+        .watch-video {
+            margin-top: 1em; /* Added margin to separate from video */
+            text-align: center; /* Center align text */
+        }
+        .register-link {
+            display: inline-block; /* Membuat tombol kembali muncul */
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #cccccc; /* Warna abu-abu untuk tombol non-aktif */
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            pointer-events: none; /* Menonaktifkan event klik */
+            opacity: 0.5; /* Menampilkan tombol secara transparan */
+            cursor: not-allowed; /* Menunjukkan kursor tidak dapat digunakan */
+        }
+        .register-link:hover {
+            background-color: #cc0000;
+        }
+        .registration-info {
+            margin-top: 1em; /* Added margin to separate from video */
+            text-align: center; /* Center align text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lomba Domino</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="catur.html">Lomba Catur</a>
+        <a href="domino.html">Lomba Domino</a>
+        <a href="index.html#contact">Kontak</a>
+    </nav>
+
+    <div class="content">
+        <h2>Detail Lomba Domino</h2>
+
+        <p>Lomba domino adalah kompetisi yang mempertandingkan keterampilan dalam mengelola kartu domino. Berikut adalah detail aturan dan ketentuan untuk lomba domino:</p>
+
+        <h2>Aturan Lomba Domino</h2>
+        <ul>
+            <li>Setiap pemain akan mendapatkan 7 buah kartu domino di awal permainan.</li>
+            <li>Urutan permainan dimulai dari pemain yang memiliki kartu dengan nilai tertinggi.</li>
+            <li>Pemain harus mencocokkan kartu yang memiliki nilai yang sama dengan kartu yang ada di tengah meja.</li>
+            <li>Jika seorang pemain tidak dapat mengeluarkan kartu, dia harus mengambil kartu tambahan dari tumpukan.</li>
+            <li>Pemain yang berhasil menyingkirkan semua kartunya terlebih dahulu akan menjadi pemenang.</li>
+        </ul>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/adhAANfQN0g" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <p class="watch-video">Untuk informasi lebih lanjut tentang aturan permainan, Anda dapat menonton video di atas.</p>
+
+        <a href="#" class="register-link" disabled>Pendaftaran Coming Soon</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Panitia Hari Kemerdekaan Indonesia</p>
+    </footer>
+</body>
+</html>
+
