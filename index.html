@@ -29,7 +29,7 @@
         }
 
         header h1 {
-            font-size: 3rem; /* Penyesuaian ukuran font untuk layar mobile */
+            font-size: 3rem;
             font-weight: 700;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
@@ -42,7 +42,7 @@
         .navbar-brand {
             font-weight: bold;
             color: #ff0000;
-            font-size: 1.2rem; /* Penyesuaian ukuran font untuk layar mobile */
+            font-size: 1.2rem;
         }
 
         .navbar-toggler-icon {
@@ -60,12 +60,12 @@
         }
 
         .content {
-            padding: 1em 0; /* Penyesuaian padding untuk konten */
+            padding: 1em 0;
         }
 
         .event img {
             width: 100%;
-            height: auto; /* Lebih baik menggunakan 'auto' agar proporsi gambar tetap terjaga */
+            height: auto;
             object-fit: cover;
             margin-bottom: 15px;
             border-radius: 10px;
@@ -98,10 +98,24 @@
         }
 
         .section-title {
-            font-size: 1.8rem; /* Penyesuaian ukuran font untuk layar mobile */
+            font-size: 1.8rem;
             font-weight: 700;
-            color: #000000; /* Penyesuaian warna font */
+            color: #000000;
             margin-bottom: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem; /* Menyesuaikan ukuran font untuk layar mobile */
+            }
+
+            .navbar-brand {
+                font-size: 1rem; /* Menyesuaikan ukuran font untuk layar mobile */
+            }
+
+            .section-title {
+                font-size: 1.5rem; /* Menyesuaikan ukuran font untuk layar mobile */
+            }
         }
     </style>
 </head>
