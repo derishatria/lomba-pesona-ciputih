@@ -116,6 +116,14 @@
             .section-title {
                 font-size: 1.5rem; /* Menyesuaikan ukuran font untuk layar mobile */
             }
+
+            .event img {
+                margin-bottom: 0; /* Mengurangi margin bawah pada gambar agar tidak terlalu jauh */
+            }
+
+            .event .col-md-6 {
+                padding: 0 15px; /* Menambahkan sedikit padding horizontal pada kolom agar konten tidak terlalu rapat */
+            }
         }
     </style>
 </head>
@@ -190,15 +198,11 @@
     </footer>
 
     <!-- Pemutaran Musik dari File MP3 dengan Autoplay -->
-    <audio controls autoplay loop style="display:none;">
+    <audio controls autoplay loop>
         <source src="musik/pee-wee-gaskins-official_pwg-dari-mata-sang-garuda.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
     <!-- Library JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd
