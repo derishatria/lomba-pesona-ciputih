@@ -29,7 +29,7 @@
         }
 
         header h1 {
-            font-size: 4rem;
+            font-size: 3rem; /* Penyesuaian ukuran font untuk layar mobile */
             font-weight: 700;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
@@ -42,7 +42,11 @@
         .navbar-brand {
             font-weight: bold;
             color: #ff0000;
-            font-size: 1.5rem;
+            font-size: 1.2rem; /* Penyesuaian ukuran font untuk layar mobile */
+        }
+
+        .navbar-toggler-icon {
+            background-color: #ff0000;
         }
 
         .navbar-nav .nav-link {
@@ -55,17 +59,13 @@
             color: #ff0000;
         }
 
-        .navbar-toggler-icon {
-            background-color: #ff0000;
-        }
-
         .content {
-            padding: 2em 0;
+            padding: 1em 0; /* Penyesuaian padding untuk konten */
         }
 
         .event img {
             width: 100%;
-            height: 300px;
+            height: auto; /* Lebih baik menggunakan 'auto' agar proporsi gambar tetap terjaga */
             object-fit: cover;
             margin-bottom: 15px;
             border-radius: 10px;
@@ -98,10 +98,10 @@
         }
 
         .section-title {
-            font-size: 2rem; /* Ukuran font diperkecil */
+            font-size: 1.8rem; /* Penyesuaian ukuran font untuk layar mobile */
             font-weight: 700;
-            color: #000000;; /* Warna font lebih soft */
-            margin-bottom: 1.5rem; /* Jarak bawah untuk memberikan ruang */
+            color: #000000; /* Penyesuaian warna font */
+            margin-bottom: 1.5rem;
         }
     </style>
 </head>
@@ -176,7 +176,7 @@
     </footer>
 
     <!-- Pemutaran Musik dari File MP3 dengan Autoplay -->
-    <audio controls autoplay loop>
+    <audio controls autoplay loop style="display:none;">
         <source src="musik/pee-wee-gaskins-official_pwg-dari-mata-sang-garuda.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
